@@ -16,6 +16,7 @@ public class Welcome
                 "\n 7 - Quit");
         System.out.println("Type a number:");
         int option = inp.nextInt();
+        inp.nextLine();
 
         switch(option)
         {
@@ -31,6 +32,7 @@ public class Welcome
                 String add_name = inp.nextLine();
                 System.out.println("Type number of chocolate: ");
                 int add_num = inp.nextInt();
+                inp.nextLine();
                 //Function that make addition for the selected chocolate
                 break;
             case 3:
@@ -38,12 +40,13 @@ public class Welcome
                 String provider_name = inp.nextLine();
                 System.out.println("Enter new name: ");
                 String provider_new_name = inp.nextLine();
-                System.out.println("Enter new name: ");
+                System.out.println("Enter new address: ");
                 String provider_address = inp.nextLine();
-                System.out.println("Enter new name: ");
+                System.out.println("Enter new location: ");
                 String provider_city = inp.nextLine();
-                System.out.println("Enter new name: ");
+                System.out.println("Enter new phonec: ");
                 String provider_phone = inp.nextLine();
+                inp.nextLine();
                 //Function that changes provider's information
                 break;
             case 4:
