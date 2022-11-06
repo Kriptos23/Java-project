@@ -44,9 +44,8 @@ public class Welcome
                 String provider_address = inp.nextLine();
                 System.out.println("Enter new location: ");
                 String provider_city = inp.nextLine();
-                System.out.println("Enter new phonec: ");
+                System.out.println("Enter new phone: ");
                 String provider_phone = inp.nextLine();
-                inp.nextLine();
                 //Function that changes provider's information
                 break;
             case 4:
